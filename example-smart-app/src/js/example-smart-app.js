@@ -118,6 +118,7 @@
     $('#holder').show();
     $('#loading').hide();
     $('#fname').html(p.fname);
+    $('#hdl').html(p.hdl);
     $('#lname').html(p.lname);
     $('#gender').html(p.gender);
     $('#birthdate').html(p.birthdate);
@@ -125,7 +126,7 @@
     $('#systolicbp').html(p.systolicbp);
     $('#diastolicbp').html(p.diastolicbp);
     $('#ldl').html(p.ldl);
-    $('#hdl').html(p.hdl);
+    
   };
 
 })(window);
